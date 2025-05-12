@@ -1,0 +1,115 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+    color: white;
+}
+.container {
+    display: flex;
+    background: url("/img/bg-new.png") center/cover;
+    height: 100vh;
+    z-index: -1000;
+}
+
+.side-border {
+    width: 12%;
+}
+
+.wrapper {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+}
+.container-next {
+    display: flex;
+    background-color: #F7921C;
+    background-size: 100%;
+    height: 50%;
+    width: 100%;
+}
+.menu {
+    padding-top: 1em;
+    display: flex;
+    margin: 0 auto;
+    justify-content: start;
+    font-size: 0.9rem;
+}
+.menu-item {
+    font-weight: lighter;
+    display: flex;
+    list-style-type: none;
+    padding: 0.7em;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    justify-content: start;
+    padding: 1.9em 0.3em;
+}
+.title-item {
+    font-weight: bold;
+    display: flex;
+    list-style-type: none;
+    padding: 0.2em;
+    justify-content: start;
+}
+.title-item-small {
+    font-size: 1.6rem;
+    font-weight: lighter;
+    display: flex;
+    list-style-type: none;
+    padding: 0.5em 0.2em 1.52em 0;
+    justify-content: start;
+}
+.title-item-button {
+    font-size: 0.8rem;
+    font-weight: lighter;
+    display: flex;
+    width: 13em;
+    list-style-type: none;
+    padding: 1.2em;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 0.4rem;
+}
+.phone {
+    width: 22vw;
+    position: absolute;
+    right: 12%;
+    bottom: -20vh;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.column {
+    display: flex;
+    font-weight: lighter;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 1rem;
+}
+.column>img {
+    width: 25%;
+    padding: 1rem;
+}
+.subtitle {
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+}
+.text {
+    font-size: 80%;
+    font-weight: normal;
+    text-align: center;
+    margin: 1rem;
+}

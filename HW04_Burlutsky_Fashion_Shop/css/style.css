@@ -1,0 +1,113 @@
+html {
+    margin: 0;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+            "slnt" 0,
+            "wdth" 100,
+            "GRAD" 0,
+            "XOPQ" 96,
+            "XTRA" 468,
+            "YOPQ" 79,
+            "YTAS" 750,
+            "YTDE" -203,
+            "YTFI" 738,
+            "YTLC" 514,
+            "YTUC" 712;
+}
+header {
+    display: flex;
+    padding: 0.7rem 2rem;
+    background-color: #646464;
+    color: whitesmoke;
+    justify-content: left;
+    align-items: center;
+}
+.title {
+    text-transform: uppercase;
+    font-size: 180%;
+    flex-grow: 3;
+}
+.menu-item {
+    text-transform: uppercase;
+    font-size: 100%;
+    padding: 0.5rem;
+}
+.spacer {
+    flex: 15;
+}
+.search {
+    flex-grow: 10;
+    font-style: italic;
+    font-size: 70%;
+    padding: 0.5rem;
+    color: #DCDCDC;
+    border: 1px solid #DCDCDC;
+    border-radius: 1rem;
+}
+.main {
+    padding: 3rem 2rem;
+    display: flex;
+    /*align-items: stretch;*/
+}
+.left {
+    width: 50%;
+    height: 80vh;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.bottom-right-content {
+    padding: 0.6rem 1.5rem;
+    background-color: #404040;
+    color: white;
+    border-radius: 1.5rem;
+}
+.bottom-left-content {
+    display: flex;
+    flex-direction: column;
+}
+.right {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.image-content {
+    display: flex;
+    justify-content: center;
+}
+.main-image {
+    width: 90%;
+}
+.params {
+    display: flex;
+    align-items: center;
+    padding: 0.7rem 0 0 0;
+}
+.params-item {
+    padding: 1rem 1.2rem;
+    width: 4%;
+    font-size: x-small;
+    text-align: center;
+    color: #DCDCDC;
+    border: 1px solid #DCDCDC;
+    border-radius: 0.3rem;
+}
+.small-images {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em 0 0 0;
+}
+.small-images img {
+    width: 20%;
+}

@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+table {
+    width: 90vw;
+    height: 20vh;
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+}
+.logo {
+    width: 100px;
+}
+h2 {
+    font-size: 30px;
+    color: red;
+}
+.link {
+    font-size: 15px;
+    font-weight: bold;
+}
+.phone {
+    width: 300px;
+}
+.card {
+    width: 15vw;
+}
+.main-img {
+    width: 20vw;
+}
+.model {
+    font-weight: bold;
+}
+.part-title {
+    font-size: 20px;
+    font-weight: bold;
+    width: 20%;
+}
+form {
+    padding-top: 15px;
+    display: inline-block;
+}
+label {
+    font-size: 12px;
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    vertical-align: top;
+}
+.description {
+    vertical-align: top;
+}
+.model-description {
+    font-size: 25px;
+    font-weight: bold;
+}
