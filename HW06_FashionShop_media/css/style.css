@@ -18,6 +18,7 @@ body {
             "YTFI" 738,
             "YTLC" 514,
             "YTUC" 712;
+
 }
 .header {
     padding: 0;
@@ -52,18 +53,23 @@ body {
     font-style: italic;
 }
 .cart {
-    position: relative;
     display: none;
+    width: 35px;
+    height: 35px;
+    background-image: url("../img/cart.png");
 }
 .dot {
-    position: absolute;
+    position: relative;
     width: 11px;
     height: 11px;
     border-radius: 50%;
     background-color: #ff75c9;
-    left: 3px;
-    bottom: 3px;
+    left: 1px;
+    top: 21px;
 }
 .content {
-    padding: 0 1rem;
+    padding: 4rem 1rem 0 1rem;
+}
+.text {
+    line-height: 100%;
 }
