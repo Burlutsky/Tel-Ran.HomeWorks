@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+            "slnt" 0,
+            "wdth" 100,
+            "GRAD" 0,
+            "XOPQ" 96,
+            "XTRA" 468,
+            "YOPQ" 79,
+            "YTAS" 750,
+            "YTDE" -203,
+            "YTFI" 738,
+            "YTLC" 514,
+            "YTUC" 712;
+}
+.header {
+    padding: 0;
+    background-color: #666666;
+    color: #fafafa;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: space-evenly;
+}
+.logo {
+    padding-top: .5rem;
+    font-size: 1.5rem;
+}
+.nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+.search {
+    padding: 0.5rem;
+    border: 1px solid whitesmoke;
+    border-collapse: collapse;
+    border-radius: 1rem;
+    background-color: inherit;
+    width: 15rem;
+    margin-right: 1rem;
+    display: none;
+}
+.search::placeholder {
+    color: lightgray;
+    font-style: italic;
+}
+.cart {
+    position: relative;
+    display: none;
+}
+.dot {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #ff75c9;
+    left: 3px;
+    bottom: 3px;
+}
+.content {
+    padding: 0 1rem;
+}
