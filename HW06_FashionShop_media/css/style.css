@@ -73,3 +73,28 @@ body {
 .text {
     line-height: 100%;
 }
+.thumb {
+    display: none;
+}
+
+.params {
+    display: flex;
+    align-items: center;
+    padding: 0.7rem 0 0 0;
+}
+.params-item {
+    padding: 1rem;
+    width: 1rem;
+    font-size: x-small;
+    text-align: center;
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+}
+.btn-add {
+    padding: 0.6rem 1.5rem;
+    background-color: #404040;
+    width: max-content;
+    color: white;
+    border-radius: 1.5rem;
+}
