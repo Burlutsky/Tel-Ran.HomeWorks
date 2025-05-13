@@ -71,7 +71,7 @@ header {
     color: white;
     border-radius: 1.5rem;
 }
-.bottom-left-content {
+.buy-parameters {
     display: flex;
     flex-direction: column;
 }
