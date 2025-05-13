@@ -56,18 +56,6 @@ body {
 }
 .cart {
     display: none;
-    width: 35px;
-    height: 35px;
-    background-image: url("../img/cart.png");
-}
-.dot {
-    position: relative;
-    width: 11px;
-    height: 11px;
-    border-radius: 50%;
-    background-color: #ff75c9;
-    left: 1px;
-    top: 21px;
 }
 .content {
     padding: 4.5rem 1rem 0 1rem;
@@ -143,4 +131,63 @@ body {
     color: white;
     border-radius: 1.5rem;
     text-align: center;
+}
+
+@media (min-width: 581px) {
+    .thumb {
+        display:  flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    .thumb img {
+        width: 22%;
+    }
+    .header {
+        flex-direction: row;
+        justify-content: start;
+        align-content: space-evenly;
+        padding: 0.7rem;
+        text-align: left;
+    }
+    .logo {
+        flex-grow: 10;
+    }
+    .cart {
+        display: block;
+    }
+    .nav li {
+        margin-right: 0.5rem;
+    }
+
+    .cart {
+        display: block;
+        width: 35px;
+        height: 35px;
+        background-image: url("../img/cart.png");
+    }
+    .dot {
+        position: relative;
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+        background-color: #ff75c9;
+        left: 1px;
+        top: 21px;
+    }
+    .big-image {
+        height: 52vh;
+    }
+    .bottom-content {
+        flex-direction: row;
+    }
+    .params {
+        justify-content: start;
+        align-items: flex-end;
+    }
+    .params-item {
+        padding: 0.7rem;
+    }
+    .btn-add {
+        flex-grow: 10;
+    }
 }
