@@ -191,3 +191,44 @@ body {
         flex-grow: 10;
     }
 }
+@media (min-width: 961px) {
+    .search {
+        display: block;
+    }
+    .logo {
+        flex-grow: 1;
+        font-weight: normal;
+        font-size: 2rem;
+        padding: 0.5rem 0 0.5rem 1rem;
+    }
+    .nav {
+        flex-grow: 15;
+        padding-top:  .3rem;
+        font-size: 1rem;
+    }
+    .nav li {
+        margin-right: 1rem;
+    }
+    .content {
+        position: relative;
+        flex-direction: row;
+    }
+    .text {
+        flex: 1;
+    }
+    .gallery {
+        flex: 1;
+    }
+    .bottom-content {
+        position: absolute;
+        align-items: flex-end;
+        width: 50%;
+        bottom: 0;
+        left: 0;
+    }
+    .btn-add {
+        width: fit-content;
+        align-content: baseline;
+        flex: content;
+    }
+}
