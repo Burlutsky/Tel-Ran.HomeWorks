@@ -1,0 +1,14 @@
+body {
+    margin: 0 auto;
+    padding: 0.2rem;
+}
+.main-image {
+    width: 100%;
+}
+.thumb-image {
+    width: 100%;
+    transition: 0.5s;
+}
+.thumb-image:hover {
+    transform: scale(1.1);
+}
