@@ -35,7 +35,6 @@ function startGenerateNumbers() {
         even: even(randomNums).length,
         odd: odd(randomNums).length,
     }
-    console.log(statistic);
     showStatistic(randomNums, statistic);
 }
 
