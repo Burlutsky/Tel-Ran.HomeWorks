@@ -1,0 +1,40 @@
+{
+  "friends": [
+    {
+      "name": "R2-D2",
+      "image": "src/assets/images/friend1.jpg"
+    },
+    {
+      "name": "C-3PO",
+      "image": "src/assets/images/friend2.jpg"
+    },
+    {
+      "name": "Wicket W. Warrick",
+      "image": "src/assets/images/friend3.jpg"
+    },
+    {
+      "name": "Chewbacca",
+      "image": "src/assets/images/friend4.jpg"
+    },
+    {
+      "name": "Han Solo",
+      "image": "src/assets/images/friend5.jpg"
+    },
+    {
+      "name": "Princess Leia",
+      "image": "src/assets/images/friend6.jpg"
+    },
+    {
+      "name": "Millennium Falcon",
+      "image": "src/assets/images/friend7.jpg"
+    },
+    {
+      "name": "Obi-Wan Kenobi",
+      "image": "src/assets/images/friend8.jpg"
+    },
+    {
+      "name": "Yoda",
+      "image": "src/assets/images/friend9.jpg"
+    }
+  ]
+}
