@@ -1,0 +1,40 @@
+{
+  "friends" : [
+    {
+      "name": "R2-D2",
+      "img": "src/images/friend1.jpg"
+    },
+    {
+      "name": "C3-PO",
+      "img": "src/images/friend2.jpg"
+    },
+    {
+      "name": "Ewok",
+      "img": "src/images/friend3.jpg"
+    },
+    {
+      "name": "Chubacca",
+      "img": "src/images/friend4.jpg"
+    },
+    {
+      "name": "Han Solo",
+      "img": "src/images/friend5.jpg"
+    },
+    {
+      "name": "Lea",
+      "img": "src/images/friend6.jpg"
+    },
+    {
+      "name": "Falcon Millenium",
+      "img": "src/images/friend7.jpg"
+    },
+    {
+      "name": "Obi Van Kenobi",
+      "img": "src/images/friend8.jpg"
+    },
+    {
+      "name": "Master Yoda",
+      "img": "src/images/friend9.jpg"
+    }
+  ]
+}

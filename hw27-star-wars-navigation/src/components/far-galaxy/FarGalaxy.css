@@ -1,0 +1,10 @@
+.farGalaxy{
+    font-size: 1.3rem;
+    line-height: 1.3;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    color:rgb(200, 21, 54, 0.7);
+}
+.farGalaxy span{
+    color: #e5dc61;
+}
