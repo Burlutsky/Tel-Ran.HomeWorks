@@ -1,18 +1,18 @@
 import UserAvatar from "./UserAvatar.tsx";
-import {useContext} from "react";
+import {type MouseEvent, useContext} from "react";
 import {TwitterContext} from "../utils/twitterContext.ts";
 import type {ContextValue, Stats} from "../utils/types.ts";
 
 
 const UserStats = () => {
-    const {user, stats, changeName, changeStats, reduceStats}: ContextValue = useContext(TwitterContext)
+    const {user, stats, changeName, changeStats}: ContextValue = useContext(TwitterContext)
 
-    const handleClick = (e: React.MouseEvent<HTMLDivElement>, key: keyof Stats) => {
+    const handleClick = (e: MouseEvent<HTMLDivElement>, key: keyof Stats) => {
         if (e.type === 'click') {
-            changeStats(key);
+            changeStats(key, 1);
         } else if (e.type === 'contextmenu') {
             e.preventDefault();
-            reduceStats(key);
+            if (stats[key] > 0) changeStats(key, -1);
         }
     };
 

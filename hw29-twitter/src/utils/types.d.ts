@@ -10,6 +10,5 @@ export type ContextValue = {
     stats: Stats,
     changeAvatar: (url: string) => void,
     changeName: (name: string) => void,
-    changeStats: (key: keyof Stats) => void,
-    reduceStats: (key: keyof Stats) => void,
+    changeStats: (key: keyof Stats, val: number) => void,
 }

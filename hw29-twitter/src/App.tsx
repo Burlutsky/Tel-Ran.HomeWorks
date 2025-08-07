@@ -22,15 +22,8 @@ function App() {
         setUser({...user, avatar: url || user.avatar})
     }
 
-    const changeStats = (key: keyof Stats) => {
-        setStats(prev => ({...prev, [key]: prev[key] + 1}))
-    }
-
-    const reduceStats = (key: keyof Stats) => {
-        setStats(prev => {
-            if (prev[key] > 0) return {...prev, [key]: prev[key] - 1};
-            return prev;
-        })
+    const changeStats = (key: keyof Stats, value: number) => {
+        setStats(prev => ({...prev, [key]: prev[key] + value}))
     }
 
     return (
@@ -41,7 +34,6 @@ function App() {
                 changeAvatar: changeAvatar,
                 changeName: changeName,
                 changeStats,
-                reduceStats
             }}>
                 <Nav/>
                 <Body/>
