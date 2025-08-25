@@ -1,0 +1,56 @@
+/* ========= Modern CSS reset (краткий) ========= */
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+html, body, #root { height: 100%; }
+img, picture, video, canvas, svg { display: block; max-width: 100%; }
+input, button, textarea, select { font: inherit; }
+
+/* ========= Тема и базовая типографика ========= */
+:root {
+    --bg: #0c0d10;
+    --surface: #14161b;
+    --text: #e7e8ea;
+    --muted: #a3a6ae;
+    --primary: #7aa2f7;
+    --accent: #f7768e;
+    --border: #1f2230;
+
+    --radius: 14px;
+    --space-1: 6px;
+    --space-2: 10px;
+    --space-3: 16px;
+    --space-4: 24px;
+    --space-5: 36px;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg: #f7f8fa;
+        --surface: #ffffff;
+        --text: #1c1f26;
+        --muted: #5b6270;
+        --primary: #3b82f6;
+        --accent: #d946ef;
+        --border: #e6e8ee;
+    }
+}
+
+html, body, #root { height: 100%; }
+
+body {
+    background: var(--bg) url('/images/sky.jpg') center / cover no-repeat fixed;
+    color: var(--text);
+    font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Apple Color Emoji', 'Segoe UI Emoji';
+    line-height: 1.5;
+}
+
+
+/* Утилиты */
+.container {
+    max-width: 1100px;
+    margin-inline: auto;
+    padding-inline: var(--space-4);
+}
+
+.stack-3 > * + * { margin-top: var(--space-3); }
+.stack-4 > * + * { margin-top: var(--space-4); }

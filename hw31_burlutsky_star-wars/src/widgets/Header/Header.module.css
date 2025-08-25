@@ -1,0 +1,22 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: saturate(1.2) blur(6px);
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3);
+    padding-block: var(--space-3);
+}
+
+.title {
+    font-size: 22px;
+    letter-spacing: 0.2px;
+    color: var(--text);
+}

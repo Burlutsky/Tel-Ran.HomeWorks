@@ -1,0 +1,30 @@
+.block {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: var(--space-4);
+    color: var(--text);
+}
+
+.label {
+    color: var(--muted);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.title {
+    font-size: 20px;
+    margin-top: var(--space-2);
+    margin-bottom: var(--space-1);
+}
+
+.meta {
+    color: var(--muted);
+    margin-bottom: var(--space-2);
+}
+
+.crawl {
+    white-space: normal;
+    line-height: 1.6;
+}

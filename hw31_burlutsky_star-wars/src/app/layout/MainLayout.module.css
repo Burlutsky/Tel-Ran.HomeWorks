@@ -1,0 +1,12 @@
+.wrapper {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100dvh;
+}
+
+.main {
+    padding-block: var(--space-4);
+    background: transparent;
+}
+
+
