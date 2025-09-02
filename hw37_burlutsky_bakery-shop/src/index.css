@@ -1,0 +1,29 @@
+/* Сброс отступов по умолчанию */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Глобальный фон и плавные переходы */
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    font-family: Roboto, Arial, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ссылки в стиле MUI */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Убираем фокус-обводку у кнопок мышью, оставляем для клавиатуры */
+button:focus:not(:focus-visible) {
+    outline: none;
+}
