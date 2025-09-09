@@ -1,0 +1,9 @@
+{
+  "common": {
+    "login": "התחבר",
+    "logout": "התנתק",
+    "username": "שם משתמש",
+    "password": "סיסמה",
+    "welcome": "ברוך הבא, {{name}}!"
+  }
+}
